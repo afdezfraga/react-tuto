@@ -1,7 +1,13 @@
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import './P6App.css';
 
 const P6App = () => {
   return (
-      <h1>App</h1>
+    <>
+      <Header />
+      <MainContent />
+    </>
   );
 }
 
