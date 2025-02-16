@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+  color: white;
+}
+
+main {
+  padding: 60px 30px;
+  background-image: url(/vite.svg);
+  background-repeat: no-repeat;
+  background-position: right 5% top 18%;
+}
+
+main > h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tech-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.tech-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.tech-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
+header {
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img {
+  width: 2.5em;
+  margin-right: 7px;
+}
+
+nav > span {
+  font-size: 1.5em;
+  color: #61DAFB;
+}
+

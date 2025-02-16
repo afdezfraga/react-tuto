@@ -88,3 +88,7 @@ button:focus-visible {
   align-items: center;
   padding: 1.6em 2em;
 }
+
+.nav-title {
+  font-size: 1.6em;
+}
